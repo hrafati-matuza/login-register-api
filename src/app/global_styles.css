@@ -1,0 +1,81 @@
+:root {
+  --colors: red, blue, green;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+body{
+    background-color: rgb(187, 177, 206);
+    padding: 0 auto;
+    color: rgb(29, 34, 46);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+  }
+  nav{
+    font-size: larger;
+    background-color: rgb(184, 159, 223);
+    margin: 0;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(64, 22, 72);
+}
+h1{
+  margin: 10px auto;
+  padding: 10px 20px;
+  display: block;
+  justify-items: center;
+}
+li,a:link, a:hover, a:active, a:visited{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  margin: 5px auto;
+  display: inline-block;
+  padding: 0 15px;
+  color:rgb(40, 24, 65);
+}
+  form{
+  text-size-adjust: auto;  
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: 5px 5px rgb(44, 39, 52);   
+  background-color: rgb(187, 170, 214);
+ }
+label, input,button{
+  display: block;
+  padding: 5px auto;
+  margin: 5px;
+  width: fit-content;
+  min-width: 300px;
+}
+input{
+  padding:10px;
+  margin: 10px;
+  background-color: rgb(200, 187, 223);
+  border: 1px solid rgb(181, 164, 212);
+}
+button{
+  padding: 5px;
+  margin: 10px auto;
+  border: 1px solid rgb(112, 82, 158);
+  background-color: rgb(187, 170, 214);
+
+  border-radius: 5%;
+  box-shadow: 2px 2px rgb(112, 82, 158);
+}
+button:hover{
+  background-color: rgb(162, 140, 197);
+
+}
